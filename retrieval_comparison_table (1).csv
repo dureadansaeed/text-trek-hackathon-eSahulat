@@ -1,0 +1,6 @@
+method,test_recall@1_%,test_recall@5_%,test_mrr@5,dev_mrr@5
+BM25 (plain),69.2,82.1,0.738,0.698
+BM25 + normalization,79.5,97.4,0.86,0.908
+Semantic (plain),66.7,84.6,0.741,0.746
+Semantic + normalization,84.6,92.3,0.869,0.829
+Hybrid,84.6,97.4,0.906,0.928
